@@ -1,0 +1,65 @@
+.admin-content-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding: 30px;
+  background-color: rgb(7, 78, 100);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.skills-form.admin-login {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-content-portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: rgb(7, 78, 100);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.skills-form form{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills-form input {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  margin-top: 16px;
+  padding: 0 24px;
+  border-radius: 8px;
+}
+
+.skills-form button {
+  width: 600px;
+  height: 60px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background: #6fe479;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+  -webkit-box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+  box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+}

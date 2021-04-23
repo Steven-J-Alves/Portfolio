@@ -1,0 +1,27 @@
+.nav-bar {
+  background-color: rgb(7, 78, 100);
+  padding: 25px;
+  position: fixed;
+  width: 1020px;
+  -webkit-box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+  box-shadow: -5px -4px 19px -11px rgba(0,0,0,0.75);
+}
+  
+.nav-bar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.nav-bar nav ul li {
+  font-weight: bold;
+  font-size: 18px;
+}
+ 
+.active {
+  background-color: #6fe479;
+  padding: 10px;
+  border-radius: 5px;
+}
